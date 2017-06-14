@@ -1,0 +1,36 @@
+html {
+  opacity: 0.9;
+  color: seashell;
+  font-size: 22px;
+  background-color: black;
+  font-family: Helvetica;
+}
+
+header {
+  background-color: black;
+  display: fixed;
+  z-index: 5;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+
+}
+
+#headdiv {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 10px;
+}
+.logo {
+  height: 50px;
+}
+
+nav {
+  padding-right: 10px;
+}
+
+nav li {
+  display: inline;
+  text-decoration: underline;
+  padding: 10px;
+}
